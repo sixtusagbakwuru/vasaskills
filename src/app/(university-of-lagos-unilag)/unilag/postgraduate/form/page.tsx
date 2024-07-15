@@ -2,7 +2,7 @@ import React from "react";
 import Form from "./form";
 
 
-export default function(){
+export default function UNILAGPostgraduateForm(){
     return(
         <div>
             <header>

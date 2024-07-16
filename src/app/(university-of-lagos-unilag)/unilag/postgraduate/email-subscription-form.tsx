@@ -22,7 +22,7 @@ export default function EmailSubscriptionForm(){
     return(
         <div>
             
-            <form onSubmit={handleSubmit} className="max-w-sm mx-auto my-8 bg-blue-900 rounded p-2">
+            <form onSubmit={handleSubmit} className="max-w-sm mx-auto my-8 bg-vasaskills-blue rounded p-2">
             <h3 className = "text-center text-2xl text-white">Join Over 7,524 Postgraduate Applicants and Stay Updated With Latest News From UNILAG SPGS</h3>
       <input
         type="text"
@@ -42,7 +42,7 @@ export default function EmailSubscriptionForm(){
       />
       <button
         type="submit"
-        className="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-blue-600 focus:outline-none"
+        className="mt-2 px-4 py-2 bg-vasaskills-green font-bold rounded hover:bg-blue-600 focus:outline-none"
       >
         Subscribe
       </button>

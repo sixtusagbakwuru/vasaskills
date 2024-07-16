@@ -7,12 +7,12 @@ import Image from "next/image";
 
 export default function UNILAGPostgraduateForm(){
     return(
-        <div>
-            <header className = "grid grid-cols-12 gap-8  mx-2 md:mx-32">
-                <div className="col-span-4 bg-white rounded p-2">
-                    <Image src = "/vasaskills-logo.png" alt = "Vasaskills Institute Logo" width = {65} height = {65}/>
+        <div className = "bg-gray-300">
+            <header className = "grid grid-cols-1 sticky top-0 shadow md:grid-cols-12  mx-2 md:mx-32">
+                <div className="md:col-span-4 bg-white pe-4 ps-4 flex justify-center md:justify-start">
+                    <Image src = "/vasaskills-logo.png" alt = "Vasaskills Institute Logo" width = {65} height = {65} className="max-w-full h-auto"/>
                 </div>
-                <div className="col-span-8 p-4 bg-white rounded flex items-center justify-end">
+                <div className="md:col-span-8 p-4 bg-white flex items-center justify-end">
                 <NavigationMenuDemo />
                 {/*
                 <Navbar />
@@ -20,13 +20,13 @@ export default function UNILAGPostgraduateForm(){
                 </div>
             </header>
             <div className = "grid grid-cols-1 md:grid-cols-12 gap-8 my-8 mx-2 md:mx-32">
-            <main className = "md:col-span-8 bg-white rounded p-4">
+            <main className = "md:col-span-8 bg-white rounded">
                 <Form />
 
             </main>
-            <aside className = "md:col-span-4 p-4 bg-white rounded">
-                <div className = "bg-white rounded p-4">
-                    <h2>Recent Posts</h2>
+            <aside className = "md:col-span-4 bg-white rounded">
+                <div className = "rounded p-4 w-full bg-vasaskills-blue">
+                    <h2 className = "text-2xl text-white font-bold">Recent Posts</h2>
 
                 </div>
                 <h2>Side Bar</h2>

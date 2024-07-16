@@ -6,7 +6,8 @@ import EmailSubscriptionForm from "../email-subscription-form";
 export default function Form() {
     return (
         <div>
-            <h1 className = "text-3xl font-bold mb-4">UNILAG Postgraduate Form 2024/2025: </h1>
+            <h1 className = "text-3xl font-bold bg-vasaskills-blue p-4 text-white mb-4">UNILAG Postgraduate Form 2024/2025: </h1>
+            <div className = "p-4">
             <p className = "text-lg leading-7 mb-4">This is to inform you that the 2020/2021 UNILAG Postgraduate Admission Form is out. We have created this page to guide you on how to obtain the form and every other thing you need to know.</p>
             <p className = "text-lg leading-7 mb-4">In other to provide you with all these, we have structured this page according to the following table of content below:</p>
             <p className = "text-lg leading-7 mb-4">Meanwhile, if you have any questions, don’t hesitate to call 08148964735 (WhatsApp) or 08086912162 for more clarification.</p>
@@ -77,6 +78,7 @@ export default function Form() {
             <p className = "text-lg leading-7 mb-4">The price of soft copy is N6,000 (instead of N8,000) while the price for hard copy is N8,000 (instead of N10,000).</p>
             <p className = "text-lg leading-7 mb-4">So which one do you want?</p>
             <p className = "text-lg leading-7 mb-4">Kindly call 08148964735 (WhatsApp) or 08086912162 to place your order now because PRICE GOES UP TO THE REGULAR AMOUNT SOON.</p>
+            </div>
         </div>
     )
 }

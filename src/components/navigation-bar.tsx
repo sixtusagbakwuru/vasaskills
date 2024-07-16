@@ -84,11 +84,11 @@ ListItem.displayName = "ListItem";
 export function NavigationMenuDemo() {
   return (
     <NavigationMenu>
-      <NavigationMenuList>
+      <NavigationMenuList className="justify-center lg:justify-start">
         <NavigationMenuItem>
-          <NavigationMenuTrigger className = "font-bold">Undergraduate</NavigationMenuTrigger>
-          <NavigationMenuContent >
-            <ul className="grid gap-3 p-6 sm:w-[300px] md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+          <NavigationMenuTrigger className="font-bold">Undergraduate</NavigationMenuTrigger>
+          <NavigationMenuContent className="w-full lg:w-auto">
+            <ul className="grid gap-3 p-6 sm:w-full md:w-full lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
@@ -116,9 +116,9 @@ export function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className = "font-bold">Postgraduate</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[300px] gap-3 p-4 sm:w-[400px] md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+          <NavigationMenuTrigger className="font-bold">Postgraduate</NavigationMenuTrigger>
+          <NavigationMenuContent className="w-full lg:w-auto">
+            <ul className="grid w-full gap-3 p-4 sm:w-full md:w-full lg:w-[600px] md:grid-cols-2">
               {components.map((component) => (
                 <ListItem key={component.title} title={component.title} href={component.href}>
                   {component.description}
@@ -127,7 +127,6 @@ export function NavigationMenuDemo() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        
       </NavigationMenuList>
     </NavigationMenu>
   );

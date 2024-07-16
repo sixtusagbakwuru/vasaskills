@@ -42,7 +42,7 @@ export default function EmailSubscriptionForm(){
       />
       <button
         type="submit"
-        className="mt-2 px-4 py-2 bg-vasaskills-green font-bold rounded hover:bg-blue-600 focus:outline-none"
+        className="mt-2 px-4 py-2 bg-vasaskills-complement font-bold rounded hover:bg-blue-600 focus:outline-none"
       >
         Subscribe
       </button>

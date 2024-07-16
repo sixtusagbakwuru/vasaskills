@@ -6,7 +6,7 @@ import EmailSubscriptionForm from "../email-subscription-form";
 export default function Form() {
     return (
         <div>
-            <h1 className = "text-3xl font-bold bg-vasaskills-blue p-4 text-white mb-4">UNILAG Postgraduate Form 2024/2025: </h1>
+            <h1 className = "text-3xl font-bold bg-white p-4 rounded">UNILAG Postgraduate Form 2024/2025: </h1>
             <div className = "p-4">
             <p className = "text-lg leading-7 mb-4">This is to inform you that the 2020/2021 UNILAG Postgraduate Admission Form is out. We have created this page to guide you on how to obtain the form and every other thing you need to know.</p>
             <p className = "text-lg leading-7 mb-4">In other to provide you with all these, we have structured this page according to the following table of content below:</p>

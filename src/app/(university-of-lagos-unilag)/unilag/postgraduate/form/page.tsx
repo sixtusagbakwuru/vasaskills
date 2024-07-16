@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function UNILAGPostgraduateForm(){
     return(
-        <div className = "bg-gray-300">
+        <div className = "bg-vasaskills-blue">
             <header className = "grid grid-cols-1 sticky top-0 shadow md:grid-cols-12  mx-2 md:mx-32">
                 <div className="md:col-span-4 bg-white pe-4 ps-4 flex justify-center md:justify-start">
                     <Image src = "/vasaskills-logo.png" alt = "Vasaskills Institute Logo" width = {65} height = {65} className="max-w-full h-auto"/>
@@ -25,8 +25,8 @@ export default function UNILAGPostgraduateForm(){
 
             </main>
             <aside className = "md:col-span-4 bg-white rounded">
-                <div className = "rounded p-4 w-full bg-vasaskills-blue">
-                    <h2 className = "text-2xl text-white font-bold">Recent Posts</h2>
+                <div className = "rounded p-4 w-full">
+                    <h2 className = "text-2xl font-bold">Recent Posts</h2>
 
                 </div>
                 <h2>Side Bar</h2>

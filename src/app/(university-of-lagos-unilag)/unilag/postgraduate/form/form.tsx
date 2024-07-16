@@ -1,5 +1,6 @@
 import React from "react";
 import Notice from "../notice";
+import EmailSubscriptionForm from "../email-subscription-form";
 
 
 export default function Form() {
@@ -9,6 +10,7 @@ export default function Form() {
             <p className = "text-lg leading-7 mb-4">This is to inform you that the 2020/2021 UNILAG Postgraduate Admission Form is out. We have created this page to guide you on how to obtain the form and every other thing you need to know.</p>
             <p className = "text-lg leading-7 mb-4">In other to provide you with all these, we have structured this page according to the following table of content below:</p>
             <p className = "text-lg leading-7 mb-4">Meanwhile, if you have any questions, don’t hesitate to call 08148964735 (WhatsApp) or 08086912162 for more clarification.</p>
+            <EmailSubscriptionForm />
             <h2 className = "text-2xl font-bold mt-8 mb-4">Table of Content:</h2>
             <ul>
                 <li className = "text-lg leading-7 mb-4">Admission Form</li>

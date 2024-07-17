@@ -38,7 +38,7 @@ export default function Form() {
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" /> <Link href="#conclusion" className="text-vasaskills-blue hover:underline"> Conclusion</Link></li>
                 </ul>
                 <h2 className="text-2xl font-bold mt-8 mb-4" id="why-choose-unilag">Why Choose UNILAG for Your Postgraduate Studies?</h2>
-                <p className="text-lg leading-7 mb-4">The University of Lagos is one of Nigeria's premier institutions, renowned for its academic excellence, research output, and vibrant campus life. Here are a few reasons why you should consider UNILAG for your postgraduate studies:</p>
+                <p className="text-lg leading-7 mb-4">The University of Lagos is one of Nigeria&apos;s premier institutions, renowned for its academic excellence, research output, and vibrant campus life. Here are a few reasons why you should consider UNILAG for your postgraduate studies:</p>
                 <ul>
                     <li className="text-lg leading-7 mb-4"><strong>Diverse Programs:</strong> UNILAG offers a wide range of postgraduate programs across various disciplines, including arts, sciences, engineering, law, and business.</li>
                     <li className="text-lg leading-7 mb-4"><strong>Experienced Faculty:</strong> Learn from distinguished professors and industry experts.</li>
@@ -56,7 +56,7 @@ export default function Form() {
                 <h2 className="text-2xl font-bold mt-8 mb-4" id="eligibility-criteria">Eligibility Criteria</h2>
                 <p className="text-lg leading-7 mb-4">Before applying, ensure you meet the following eligibility criteria for the UNILAG postgraduate form:</p>
                 <ol>
-                    <li className="text-lg leading-7 mb-4 flex items-start gap-2"><TbCircleNumber1Filled className="min-h-8	min-w-8 text-lg text-vasaskills-green"/><span><strong>Bachelor’s Degree:</strong> Applicants must have a minimum of a Second Class Lower Division (2:2) in their first degree.</span></li>
+                    <li className="text-lg leading-7 mb-4 flex items-start gap-2"><TbCircleNumber1Filled className="min-h-8	min-w-8 text-lg text-vasaskills-green"/><span><strong>Bachelor&apos;s Degree:</strong> Applicants must have a minimum of a Second Class Lower Division (2:2) in their first degree.</span></li>
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"><TbCircleNumber2Filled className="min-h-8	min-w-8 text-lg text-vasaskills-green"/><span><strong>Academic Transcripts:</strong> Official transcripts from your undergraduate institution.</span></li>
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"><TbCircleNumber3Filled className="min-h-8	min-w-8 text-lg text-vasaskills-green"/><span><strong>NYSC Discharge Certificate:</strong> Proof of completion of the National Youth Service Corps (NYSC) program.</span></li>
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"><TbCircleNumber4Filled className="min-h-8	min-w-8 text-lg text-vasaskills-green"/><span><strong>Professional Qualifications:</strong> Relevant professional qualifications (if applicable).</span></li>
@@ -86,7 +86,7 @@ export default function Form() {
                 </ol>
                 <p className="text-lg leading-7 mb-4">STEP #2: Once we get the above details, we will initiate the process after which UNILAG will send you an email to verify your email address and generate reference.</p>
                 <p className="text-lg leading-7 mb-4">STEP #3: In that email, click on the verification link, and your email will be verified and your reference number generated.</p>
-                <p className="text-lg leading-7 mb-4">STEP #4: With the reference number, you can pay for the application form ONLINE from anywhere you are. If you don’t know how to go about that, don’t worry as we are here to guide you through the process.</p>
+                <p className="text-lg leading-7 mb-4">STEP #4: With the reference number, you can pay for the application form ONLINE from anywhere you are. If you don&apos;t know how to go about that, don&apos;t worry as we are here to guide you through the process.</p>
                 <p className="text-lg leading-7 mb-4">STEP #5: Once you successfully pay for the application form, you can then forward the reference number and the following credentials to us via WhatsApp (08148964735):</p>
                 <ol>
                     <li className="text-lg leading-7 mb-4">First Degree Certificate or Statement of Result</li>

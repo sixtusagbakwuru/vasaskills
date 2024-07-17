@@ -22,6 +22,7 @@ const config = {
         'vasaskills-blue': '#054e92',
         'vasaskills-green': '#8cb32e',
         'vasaskills-complement': "#924905",
+        'vasaskills-red': '#f83209',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

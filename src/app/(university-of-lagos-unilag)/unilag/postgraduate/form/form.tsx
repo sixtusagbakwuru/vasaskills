@@ -1,6 +1,9 @@
 import React from "react";
 import Notice from "../notice";
 import EmailSubscriptionForm from "../email-subscription-form";
+import { FaCheckCircle } from "react-icons/fa";
+import Link from "next/link";
+
 
 
 export default function Form() {
@@ -14,14 +17,14 @@ export default function Form() {
             <EmailSubscriptionForm />
             <h2 className = "text-2xl font-bold mt-8 mb-4">Table of Content:</h2>
             <ul>
-                <li className = "text-lg leading-7 mb-4">Admission Form</li>
-                <li className = "text-lg leading-7 mb-4">Available Courses</li>
-                <li className = "text-lg leading-7 mb-4">School Fees</li>
-                <li className = "text-lg leading-7 mb-4">Entrance Exam</li>
-                <li className = "text-lg leading-7 mb-4">Past Questions</li>
-                <li className = "text-lg leading-7 mb-4">Tutorial</li>
+                <li className = "text-lg leading-7 mb-4 flex items-center gap-2"> <FaCheckCircle className = "text-vasaskills-green"/> <Link href = "#admission-form" className = "text-vasaskills-blue hover:underline"> Admission Form</Link></li>
+                <li className = "text-lg leading-7 mb-4 flex items-center gap-2"> <FaCheckCircle className = "text-vasaskills-green"/> <Link href = "#available-courses" className = "text-vasaskills-blue hover:underline"> Available Courses</Link></li>
+                <li className = "text-lg leading-7 mb-4 flex items-center gap-2"> <FaCheckCircle className = "text-vasaskills-green"/> <Link href = "#school-fees" className = "text-vasaskills-blue hover:underline"> School Fees</Link></li>
+                <li className = "text-lg leading-7 mb-4 flex items-center gap-2"> <FaCheckCircle className = "text-vasaskills-green"/> <Link href = "#entrance-exam" className = "text-vasaskills-blue hover:underline"> Entrance Exam</Link></li>
+                <li className = "text-lg leading-7 mb-4 flex items-center gap-2"> <FaCheckCircle className = "text-vasaskills-green"/> <Link href = "#past-questions" className = "text-vasaskills-blue hover:underline"> Past Questions</Link></li>
+                <li className = "text-lg leading-7 mb-4 flex items-center gap-2"> <FaCheckCircle className = "text-vasaskills-green"/> <Link href = "#tutorial" className = "text-vasaskills-blue hover:underline"> Tutorial</Link></li>
             </ul>
-            <h2 className = "text-2xl font-bold mt-8 mb-4">Admission Form</h2>
+            <h2 className = "text-2xl font-bold mt-8 mb-4" id = "admission-form">Admission Form</h2>
             <p className = "text-lg leading-7 mb-4">The 2020/2021 UNILAG Postgraduate Admission Form is sold for N22,500 excluding bank charge. The sales of the form started on Monday, 25th May, 2020 and closes on Friday, 9th October, 2020.</p>
             <p className = "text-lg leading-7 mb-4">Meanwhile, completed application form must be submitted online not later than Wednesday, 14th October, 2020</p>
             <Notice />
@@ -56,7 +59,7 @@ export default function Form() {
             <p className = "text-lg leading-7 mb-4">STEP #6: After receiving your credentials, we will complete the form and send you a preview copy before final submission,</p>
             <p className = "text-lg leading-7 mb-4">STEP #7: Finally, after previewing and making corrections where necessary, we will submit the form and send you the final copy which you can print anywhere if you wish.</p>
             <Notice />
-            <h2 className = "text-2xl font-bold mt-8 mb-4">Available Courses</h2>
+            <h2 className = "text-2xl font-bold mt-8 mb-4" id = "available-courses">Available Courses</h2>
             <p className = "text-lg leading-7 mb-4">Here is a Full List of UNILAG Postgraduate Courses and Requirements.</p>
             <p className = "text-lg leading-7 mb-4">Ensure that the programme you wish to apply for is available before proceeding with the purchase of the form.</p>
             <Notice />

@@ -3,6 +3,11 @@ import Form from "./form";
 import Navbar from "@/components/navbar";
 import { NavigationMenuDemo } from "@/components/navigation-bar";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "UNILAG Postgraduate Form"
+}
 
 
 export default function UNILAGPostgraduateForm(){

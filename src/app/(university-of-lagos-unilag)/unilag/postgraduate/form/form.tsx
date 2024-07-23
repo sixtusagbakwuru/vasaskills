@@ -19,7 +19,7 @@ import { sendGTMEvent } from "@next/third-parties/google";
 
 
 export default function Form() {
-    sendGTMEvent({event: 'conversion', value: 'AW-16649570026/tU6jCOyH78QZEOqNkYM-'})
+    
     return (
         <div>
             <h1 className="text-3xl font-bold bg-white p-4 rounded">Everything You Need to Know About the UNILAG Postgraduate Form 2024/2025 </h1>

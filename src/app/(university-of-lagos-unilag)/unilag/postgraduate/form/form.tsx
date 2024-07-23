@@ -11,19 +11,21 @@ import { TbCircleNumber4Filled } from "react-icons/tb";
 import { TbCircleNumber5Filled } from "react-icons/tb";
 import { TbCircleNumber6Filled } from "react-icons/tb";
 import { TbCircleNumber7Filled } from "react-icons/tb";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 
 
 
 
 export default function Form() {
+    sendGTMEvent({event: 'conversion', value: 'AW-16649570026/tU6jCOyH78QZEOqNkYM-'})
     return (
         <div>
             <h1 className="text-3xl font-bold bg-white p-4 rounded">Everything You Need to Know About the UNILAG Postgraduate Form 2024/2025 </h1>
             <div className="p-4">
                 <p className="text-lg leading-7 mb-4">Are you looking to advance your academic journey with a postgraduate degree? The <Link href="https://www.unilag.edu.ng" target="_blank">University of Lagos (UNILAG)</Link> offers a range of postgraduate programs that could be your next step. This guide covers everything you need to know about the UNILAG postgraduate form, from application deadlines to eligibility criteria and application procedures.</p>
                 <p className="text-lg leading-7 mb-4">In other to provide you with all these, we have structured this page according to the following table of content below:</p>
-                <p className="text-lg leading-7 mb-4">Meanwhile, if you have any questions, don’t hesitate to call <span className="font-bold text-vasaskills-blue">08048964735</span> (WhatsApp) or <span className="font-bold text-vasaskills-blue">08186912162</span> for more clarification.</p>
+                <p className="text-lg leading-7 mb-4">Meanwhile, if you have any questions, don’t hesitate to call <span className="font-bold text-vasaskills-blue">08148964735</span> (WhatsApp) or <span className="font-bold text-vasaskills-blue">08086912162</span> for more clarification.</p>
                 <EmailSubscriptionForm />
                 <h2 className="text-2xl font-bold mt-8 mb-4">Table of Content:</h2>
                 <ul>
@@ -73,9 +75,9 @@ export default function Form() {
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" />NYSC Certificate (Discharged or Exemption)</li>
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" />White background colored passport photograph.</li>
                 </ol>
-                <p className="text-lg leading-7 mb-4">Call <strong className = 'text-vasaskills-blue'>08048964735</strong> (WhatsApp) or <strong className = 'text-vasaskills-blue'>08186912162</strong> for proper direction to our office in UNILAG. Please note that our outlet is just 2 minutes walk away from the University Main Gate.</p>
+                <p className="text-lg leading-7 mb-4">Call <strong className = 'text-vasaskills-blue'>08148964735</strong> (WhatsApp) or <strong className = 'text-vasaskills-blue'>08086912162</strong> for proper direction to our office in UNILAG. Please note that our outlet is just 2 minutes walk away from the University Main Gate.</p>
                 <p className="text-lg leading-7 mb-4">Alternatively, we can actually assist you from anywhere you are without you coming to our outlet in UNILAG. This is how it works:</p>
-                <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #1</strong> : Kindly send us the following detail to <strong className = 'text-vasaskills-blue'>08048964735</strong> (WhatsApp) or <strong className = 'text-vasaskills-blue'>08186912162</strong>.</p>
+                <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #1</strong> : Kindly send us the following detail to <strong className = 'text-vasaskills-blue'>08148964735</strong> (WhatsApp) or <strong className = 'text-vasaskills-blue'>08086912162</strong>.</p>
                 <ol>
                 <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" />Surname</li>
                 <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" />First Name</li>
@@ -86,7 +88,7 @@ export default function Form() {
                 <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #2</strong> : Once we get the above details, we will initiate the process after which UNILAG will send you an email to verify your email address and generate reference.</p>
                 <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #3</strong> : In that email, click on the verification link, and your email will be verified and your reference number generated.</p>
                 <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #4</strong> : With the reference number, you can pay for the application form ONLINE from anywhere you are. If you don&apos;t know how to go about that, don&apos;t worry as we are here to guide you through the process.</p>
-                <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #5</strong> : Once you successfully pay for the application form, you can then forward the reference number and the following credentials to us via WhatsApp (08048964735):</p>
+                <p className="text-lg leading-7 mb-4"><strong className="bg-vasaskills-red text-white px-2 py-1 rounded ">STEP #5</strong> : Once you successfully pay for the application form, you can then forward the reference number and the following credentials to us via WhatsApp (08148964735):</p>
                 <ol>
                 <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" />First Degree Certificate or Statement of Result</li>
                 <li className="text-lg leading-7 mb-4 flex items-start gap-2"> <FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" />NYSC Certificate (Discharged or Exemption)</li>
@@ -122,7 +124,7 @@ export default function Form() {
                 <p className="text-lg leading-7 mb-4">Fortunately, we have both hard copies and soft copies of the past questions for all courses.</p>
                 <p className="text-lg leading-7 mb-4">The price of soft copy is N6,000 (instead of N8,000) while the price for hard copy is N8,000 (instead of N10,000).</p>
                 <p className="text-lg leading-7 mb-4">So which one do you want?</p>
-                <p className="text-lg leading-7 mb-4">Kindly call 08048964735 (WhatsApp) or 08186912162 to place your order now because PRICE GOES UP TO THE REGULAR AMOUNT SOON.</p>
+                <p className="text-lg leading-7 mb-4">Kindly call 08148964735 (WhatsApp) or 08086912162 to place your order now because PRICE GOES UP TO THE REGULAR AMOUNT SOON.</p>
                 <h2 className="text-2xl font-bold mt-8 mb-4" id = "tips">Tips for a Successful Application</h2>
                 <ul>
                     <li className="text-lg leading-7 mb-4 flex items-start gap-2"><FaCheckCircle className="mt-1 min-h-5 min-w-5 text-vasaskills-green" /><span><strong>Start Early:</strong> Begin the application process as soon as the form is available to avoid last-minute rushes.</span></li>

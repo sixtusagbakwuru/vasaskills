@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Notice from "../notice";
 import EmailSubscriptionForm from "../email-subscription-form";

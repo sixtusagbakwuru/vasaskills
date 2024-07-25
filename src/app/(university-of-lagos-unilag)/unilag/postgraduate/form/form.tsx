@@ -15,11 +15,7 @@ import { TbCircleNumber7Filled } from "react-icons/tb";
 import { sendGTMEvent } from "@next/third-parties/google";
 
 
-
-
-
 export default function Form() {
-    
     return (
         <div>
             <h1 className="text-3xl font-bold bg-white p-4 rounded">Everything You Need to Know About the UNILAG Postgraduate Form 2024/2025 </h1>

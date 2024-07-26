@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <div>
       <Head>
-        <title>Privacy Policy - Vasaskills</title>
+        <title>Privacy Policy</title>
         <meta name="description" content="Privacy Policy of Vasaskills" />
       </Head>
       <main>
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
           <br />
           Phone: +234-808-846-3874
           <br />
-          Address: 7, St. Finbarr's College Road, Pako Bus-Stop, Akoka, Yaba, Lagos, Nigeria
+          Address: 7, St. Finbarr&apos;s College Road, Pako Bus-Stop, Akoka, Yaba, Lagos, Nigeria
         </p>
 
         <h2>Effective Date</h2>

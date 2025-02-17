@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+There is another project on [`Laptops Sales`](https://store.spraditech.ng/) built by [`Spraditech Digital Solutions`](https://spraditech.ng/). 
+
 ## Getting Started
 
 First, run the development server:
